@@ -16,6 +16,15 @@ body {
   color: rgb(83, 100, 113);
 }
 
+.typographyT1 {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+  background-color: transparent;
+}
+
+.boxFlex {
+  display: flex;
+}
 /* --- navLink --- */
 
 .navLinkContainer {
@@ -24,14 +33,23 @@ body {
   border-radius: 25px;
 }
 
+.navLinkContainer a {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+  background-color: transparent;
+}
+
 .navLinkContainer:hover {
   background-color: rgba(15, 25, 20, 0.1);
 }
 
-.navLinkText {
-  text-decoration: none;
-  color: rgb(15, 20, 25);
-  background-color: transparent;
+/* --- profile --- */
+.profileContainer {
+  padding: 5px 0px;
+}
+
+.profileLocalFollows {
+  padding: 15px 25px;
 }
 
 /* --- profileFollows --- */
