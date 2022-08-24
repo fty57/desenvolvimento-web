@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+}
+
+/* --- colorsText ---*/
+
+.colorPrimary {
+  color: rgb(15, 20, 25);
+}
+
+.colorSecondary {
+  color: rgb(83, 100, 113);
+}
+
+/* --- navLink --- */
+
+.navLinkContainer {
+  display: flex;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.navLinkContainer:hover {
+  background-color: rgba(15, 25, 20, 0.1);
+}
+
+.navLinkText {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+  background-color: transparent;
+}
+
+/* --- profileFollows --- */
+
+.profileImgBtn {
+  display: flex;
+  align-items: center;
+}
+
+.profileFollowsNumber {
+  text-decoration: none;
+  color: rgb(15, 20, 25);
+  font-weight: 700;
+}
+
+.profileFollowsInfo {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+
+.profileFollowsInfo:hover {
+  text-decoration: underline;
+}
+
+/* --- profileFollowsDiv--- */
+
+.divTopHypers {
+  display: flex;
+  flex-direction: row;
+}
+
+.ulTopHypers {
+  display: flex;
+  list-style-type: none;
+}
+
+/* --- tweetLinks --- */
+.tweetContainer:hover {
+  background-color: rgba(238, 15, 15, 0.03);
+}
+
+.tweetLinkSubContainer {
+  display: flex;
+}
+
+.tweetLinkSubContainer {
+  border-radius: 25px;
+}
+
+.tweetLinkSubContainer:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+.tweetLinkSubContainerReplyShare:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+.tweetLinkSubContainerRetzeet:hover {
+  background-color: rgba(0, 186, 124, 0.1);
+}
+
+.tweetLinkSubContainerLike:hover {
+  background-color: rgba(249, 24, 128, 0.1);
+}
+
+.tweetLinkText {
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+  background-color: transparent;
+}
+
+.tweetLinkReplyShare:hover {
+  color: rgba(29, 155, 240, 1);
+}
+
+.tweetLinkRetzeet:hover {
+  color: rgba(0, 186, 124, 1);
+}
+
+.tweetLinkLike:hover {
+  color: rgba(249, 24, 128, 1);
+}
