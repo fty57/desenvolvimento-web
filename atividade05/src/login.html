@@ -39,7 +39,7 @@
             <div class="icon-content">
               <img src="./img/tiziu.png" alt="Tiziu" />
             </div>
-            <form class="needs-validation" novalidate>
+            <form class="needs-validation" validate>
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">
                   Entre no Tzeet agora mesmo
@@ -64,7 +64,8 @@
                         class="form-control"
                         id="validationCustom01"
                         placeholder="name@example.com"
-                        required
+                        required=""
+                        onchange="toggleButton()"
                       />
                       <label for="validationCustom01">Email</label>
                       <div class="valid-feedback">Looks good!</div>
@@ -75,7 +76,8 @@
                         class="form-control"
                         id="floatingPassword"
                         placeholder="Password"
-                        required
+                        required=""
+                        onchange="toggleButton()"
                       />
                       <label for="floatingPassword">Senha</label>
                     </div>
@@ -96,7 +98,14 @@
                 >
                   Close
                 </button>
-                <button class="btn btn-primary" type="submit">Entrar</button>
+                <button
+                  id="validateBtn"
+                  class="btn btn-primary"
+                  type="submit"
+                  disabled
+                >
+                  Entrar
+                </button>
               </div>
             </form>
           </div>
@@ -110,5 +119,6 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
